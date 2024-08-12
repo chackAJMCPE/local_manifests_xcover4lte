@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="spholz" fetch="https://github.com/spholz" clone-depth="1" />
+    <remote name="mozles" fetch="https://github.com/Mozles" clone-depth="1" />
+    <remote name="syntax" fetch="https://github.com/synt4x93" clone-depth="1" />
+
+    <project path="device/samsung/xcover4lte" name="android_device_samsung_xcover4lte" remote="syntax" />
+    <project path="kernel/samsung/xcover4lte" name="android_kernel_samsung_xcover4lte" remote="spholz" />
+    <project path="vendor/samsung/xcover4lte" name="proprietary_vendor_samsung_exynos7570-common" remote="mozles" />
+
+</manifest>
